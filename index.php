@@ -18,7 +18,7 @@
 <header>
   <div class="headtop">
     <div class="contenedor-web">
-       <div class="logo"><img src="images/logo-uni.png"></div>
+       <div class="logo"><img src="images/logo-uni2.png"></div>
        <div class="nomfacultad"><h3>Facultad de<br>Ingeniería Industrial<br>y de Sistemas</h3></div>
        <div class="nomuni"><h3>Universidad Nacional<br><span>de Ingenieria</span></h3></div>
     </div>
