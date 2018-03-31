@@ -1,0 +1,26 @@
+.rowpro{
+	overflow: hidden;
+}
+.rowpro > div:last-child{
+	margin: 0!important;
+}
+
+.colum8, .colum6, .colum4, .colum3, .colum2, .span8, .span6, .span4, .span3, .span2{
+	float: left;
+	margin-right: 3%;
+}
+.colum8, .span8{
+	width: 65.66666666666667%;
+}
+.colum6, .span6{
+	width: 48.5%;
+}
+.colum4, .span4{
+	width: 31.33333333333333%;
+}
+.colum3, .span3{
+	width: 22.75%;
+}
+.colum2, .span2{
+	width: 14.16666666666667%;
+}

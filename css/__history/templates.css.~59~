@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,400italic,500,700,100);
+div{
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+	color: #868686;
+	margin: 0;
+	padding: 0;
+	font-family:'Roboto Condensed';
+	font-size: 0.9em;
+	font-weight: 400;
+}
+.contenedor-web{
+	width: 70%;
+	margin: 0 auto;
+}
+header{}
+.headtop{
+	background-color: #fff;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.nomfacultad, .logo, .nomuni{
+	float: left;
+}
+.nomfacultad, .logo{
+	width: 30%;	
+}
+.logo{
+	background-color: white;
+}
+.nomfacultad{
+ background-color: #37669A;
+ padding: 15px;
+ color:#fff;
+}
+.nomfacultad h3, .nomuni h3{
+font-family: 'Roboto';
+text-transform: uppercase;
+font-weight: 400;
+font-size: 20px;
+line-height: 18px;
+}
+
+.nomuni h3 span{
+font-weight: 600;
+font-size: 33px;
+line-height: 30px;
+}
+.nomuni{
+	width: 40%;
+	background-color: #A02921;
+	 padding: 18px;
+   color:#fff;
+   text-align: center;
+}
+.menu{
+	background-color: #343434;
+	padding: 10px 0;
+}
+
+section{
+	height: 900px;
+}
+.slideshow img{
+	width: 100%;
+}
+.content-info{
+}
+footer{
+padding: 70px;
+	background-color: #37669A;
+	overflow: hidden;
+}

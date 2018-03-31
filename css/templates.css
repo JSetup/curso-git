@@ -1,0 +1,164 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,400italic,500,700,100);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,300,400italic,500,700,100);
+div{
+	box-sizing: border-box;
+}
+body{
+	background-color: #eee;
+	color: #868686;
+	margin: 0;
+	padding: 0;
+	font-family:'Roboto Condensed';
+	font-size: 0.9em;
+	font-weight: 400;
+}
+.contenedor-web{
+	width: 70%;
+	margin: 0 auto;
+}
+header{}
+.headtop{
+	background-color: #fff;
+	overflow: hidden;
+	padding: 10px 0;
+}
+
+.nomfacultad, .logo, .nomuni{
+	float: left;
+}
+.nomfacultad, .logo{
+	width: 30%;	
+}
+.logo{
+	background-color: white;
+}
+.logo img{
+	height:80px;
+}
+.nomfacultad{
+ background-color: #37669A;
+ padding: 10px;
+ color:#fff;
+}
+.nomfacultad h3, .nomuni h3{
+font-family: 'Roboto';
+text-transform: uppercase;
+font-weight: 400;
+font-size: 20px;
+line-height: 20px;
+margin:0;
+}
+
+.nomuni h3 span{
+font-weight: 600;
+font-size: 33px;
+line-height: 32px;
+}
+.nomuni{
+	width: 40%;
+	background-color: #A02921;
+	padding: 14px 10px 14px 10px;
+   	color:#fff;
+   	text-align: center;
+}
+nav{
+	background-color: #343434;
+	overflow:hidden;
+}
+nav .menu ul{
+	margin:0;
+	padding:0;
+}
+nav .menu ul li{
+	list-style:none;
+	
+}
+nav .menu ul li a{
+	text-decoration:none;
+	float:left;
+	padding:30px 20px;
+	text-transform:uppercase;
+	color:#FFF;
+	display: inline-block;
+	margin-right:2px;
+}
+.nav2{
+	position:fixed;
+	margin:0;
+	padding:0;
+	z-index:10;
+	width:100%;
+	top:0;
+	background-color:rgba(81,72,73,0.68);
+}
+.nav2 .menu ul li a{
+	padding: 30px;	
+}
+.slideshow img{
+	width: 100%;
+}
+section{
+	height: 900px;
+}
+.content-info{
+	padding: 30px 0 0 0;
+}
+.content-info h2{
+	font-size:30px;
+	text-align:center;
+	background:url(../images/sub-titu.png) bottom no-repeat;
+	padding-bottom: 20px;	
+}
+footer{
+	padding: 50px;
+	background-color: #285DA1;
+	overflow: hidden;
+	
+}
+footer .moduletable h3{
+	font-size:20px;
+	color:#fff;
+	text-align:right;
+	margin-right:33px;	
+}
+footer  > div:first-child{
+	margin-top:60px;
+}
+footer .moduletable p{
+	text-align:center;
+	color:#fff;	
+}
+footer  > div:last-child{
+	margin:0px;
+	text-align:left;
+	margin-top:50px;
+}
+footer .moduletable .social li{
+	list-style:none;
+	display:inline-block;
+	
+}
+footer .moduletable .social{
+	margin:0;
+	padding:0;
+	text-align:right;
+}
+footer .moduletable .social li a{
+	text-decoration:none;
+	color:#fff;
+	padding: 10px;
+	font-size: 20px;
+	margin:7px;
+	
+
+
+	
+}
+footer .moduletable .social li a:hover{
+	background-color:#C8578C;
+	border-radius:5px;
+}
+footer > .moduletable{
+	margin-top:50px;
+}
