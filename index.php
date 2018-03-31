@@ -62,7 +62,7 @@
         <p>CENTRAL TELEFONICA: 200 - 9060</p>
         </div>
         <div class="moduletable span4">
-        	<h3>Siguenos en:</h3>
+        	<h3>No nos sigas en:</h3>
         	<ul class="social">
         		<li><a href="#"><span class="icon-facebook"></span></a></li>
             	<li><a href="#"><span class="icon-twitter"></span></a></li>
