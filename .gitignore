@@ -1,0 +1,17 @@
+# ignore all logs
+################################
+*.log
+
+# OS Generated System
+*.ini
+
+# Databases
+################################
+*.sql
+*.sqlite
+*.log
+
+# Documents
+################################
+*.docx
+*.pdf
